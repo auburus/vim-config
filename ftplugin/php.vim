@@ -1,4 +1,3 @@
-
 setlocal smartindent
 
 " Use spaces instead of tabs

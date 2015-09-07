@@ -43,3 +43,15 @@ syntax on
 " Set background to red if line exeeds 80 characters
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
+
+" Basic tab support (spaces instead of tabs, 4 each level)s
+setlocal smartindent
+
+" Use spaces instead of tabs
+setlocal expandtab
+" Number of spaces when tab is pressed
+setlocal tabstop=4
+" Number of spaces when auto indenting
+setlocal shiftwidth=4
+" Number of spaces when tab is pressed and its editing
+setlocal softtabstop=4
