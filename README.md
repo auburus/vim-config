@@ -8,3 +8,10 @@ suggest some improvements through a pull-request.
 
 Keep in mind that i mostly program in PHP (I know, I'm sorry, but work
 is work) and python.
+
+# Install Vundle
+
+Run the following command:
+	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+and after that, launch `vim` and run `:PluginInstall`
