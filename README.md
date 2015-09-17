@@ -15,3 +15,8 @@ Run the following command:
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 and after that, launch `vim` and run `:PluginInstall`
+
+# Create symlink
+
+You should link your `~/.vimrc` file to `~/.vim/.vimrc`
+    ln -s ~/.vim/.vimrc .vimrc
