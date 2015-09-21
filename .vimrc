@@ -7,6 +7,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'shawncplus/phpcomplete.vim'
+Plugin 'lunaru/vim-twig'
 
 call vundle#end()
 filetype plugin indent on
