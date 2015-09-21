@@ -55,3 +55,5 @@ setlocal tabstop=4
 setlocal shiftwidth=4
 " Number of spaces when tab is pressed and its editing
 setlocal softtabstop=4
+" Allow backspace to work in insert mode
+set backspace=indent,eol,start
