@@ -8,6 +8,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'lunaru/vim-twig'
+Plugin 'kien/ctrlp.vim.git'
 
 call vundle#end()
 filetype plugin indent on
