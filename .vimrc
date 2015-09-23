@@ -5,7 +5,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim.git'
 Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'lunaru/vim-twig'
 Plugin 'kien/ctrlp.vim.git'
