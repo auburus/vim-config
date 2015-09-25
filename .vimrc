@@ -10,6 +10,10 @@ Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'lunaru/vim-twig'
 Plugin 'kien/ctrlp.vim.git'
 
+" This two plugins are used to format markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -59,3 +63,7 @@ setlocal shiftwidth=4
 setlocal softtabstop=4
 " Allow backspace to work in insert mode
 set backspace=indent,eol,start
+
+
+" Configure markdown plugin
+let g:vim_markdown_no_default_key_mappings=1
