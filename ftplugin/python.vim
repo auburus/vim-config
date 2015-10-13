@@ -5,3 +5,4 @@ setlocal softtabstop=4
 
 setlocal modeline
 
+colorscheme ron
