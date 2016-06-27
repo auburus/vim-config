@@ -7,12 +7,21 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim.git'
 Plugin 'shawncplus/phpcomplete.vim'
-Plugin 'lunaru/vim-twig'
+Plugin 'lunaru/vim-twig.git'
 Plugin 'kien/ctrlp.vim.git'
+
+" Get Latex support for vim
+Plugin 'lervag/vimtex'
 
 " This two plugins are used to format markdown
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+
+" Plugin used to show errors in the editor...
+Plugin 'scrooloose/syntastic'
+
+" Just use Tab for autocompletion
+Plugin 'ervandew/supertab.git'
 
 call vundle#end()
 filetype plugin indent on
@@ -34,6 +43,7 @@ nmap <leader>p :CtrlP<cr>
 
 filetype plugin on
 filetype plugin indent on
+filetype indent on
 " Autocomment (having filetype plugin indent on)
 " set formatoptions+=r Ideally, the line above will do exactly this
 
