@@ -10,6 +10,9 @@ Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'lunaru/vim-twig.git'
 Plugin 'kien/ctrlp.vim.git'
 
+" Install php getter/setters
+Plugin 'docteurklein/php-getter-setter.vim'
+
 " Get Latex support for vim
 Plugin 'lervag/vimtex'
 
@@ -39,7 +42,7 @@ let g:ctrlp_custom_ignore = {
 """ This makes a lot of sense if you are working on a project that is in
 """ version control. It also supports works with .svn, .hg, .bzr.
 let g:ctrlp_working_path_mode = 'r'
-nmap <leader>p :CtrlP<cr>
+" nmap <leader>p :CtrlP<cr>
 
 filetype plugin on
 filetype plugin indent on
