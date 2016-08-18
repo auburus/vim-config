@@ -7,7 +7,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim.git'
 Plugin 'shawncplus/phpcomplete.vim'
-Plugin 'lunaru/vim-twig.git'
+" Plugin 'lunaru/vim-twig.git'
+Plugin 'lumiliet/vim-twig'
 Plugin 'kien/ctrlp.vim.git'
 
 " Install php getter/setters
@@ -27,7 +28,6 @@ Plugin 'scrooloose/syntastic'
 Plugin 'ervandew/supertab.git'
 
 call vundle#end()
-filetype plugin indent on
 
 "" end of Vundle Configuration
 
@@ -43,6 +43,9 @@ let g:ctrlp_custom_ignore = {
 """ version control. It also supports works with .svn, .hg, .bzr.
 let g:ctrlp_working_path_mode = 'r'
 " nmap <leader>p :CtrlP<cr>
+
+" Set .tpl files to twig filetype
+autocmd BufNew,BufNewFile,BufRead *.tpl setlocal ft=html.twig
 
 filetype plugin on
 filetype plugin indent on
