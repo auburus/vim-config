@@ -46,6 +46,7 @@ let g:ctrlp_working_path_mode = 'r'
 
 " Set .tpl files to twig filetype
 autocmd BufNew,BufNewFile,BufRead *.tpl setlocal ft=html.twig
+autocmd BufNew,BufNewFile,BufRead *.js setlocal ft=javascript
 
 filetype plugin on
 filetype plugin indent on
