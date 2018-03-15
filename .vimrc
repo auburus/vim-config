@@ -30,7 +30,10 @@ let g:ctrlp_custom_ignore = {
 let g:ctrlp_working_path_mode = 'r'
 " nmap <leader>p :CtrlP<cr>
 
-" Coloooors
+" File endings to linux
+set fileformat=unix
+
+" Colors
 colorscheme koehler
 syntax on
 
