@@ -10,6 +10,8 @@ Plugin 'VundleVim/Vundle.vim.git'
 " Just use Tab for autocompletion
 Plugin 'ervandew/supertab.git'
 
+Plugin 'kien/ctrlp.vim.git' 
+
 " Detect intentation on the file (and set shiftwidth, expandtab & tabstop)
 Plugin 'ciaranm/detectindent.git'
 
