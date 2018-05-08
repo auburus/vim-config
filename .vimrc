@@ -47,30 +47,13 @@ match OverLength /\%81v.\+/
 " DetectIndent Plugin preferences
 :autocmd BufReadPost * :DetectIndent
 " To prefer 'expandtab' to 'noexpandtab' when no detection is possible
-:let g:detectindent_preferred_expandtab = 1 
+let g:detectindent_preferred_expandtab = 1 
 " To specify a preferred indent level when no detection is possible: 
-:let g:detectindent_preferred_indent = 4 
+let g:detectindent_preferred_indent = 4 
+let g:detectindent_preferred_when_mixed = 1
 
 " Autotab next line
 filetype indent on
 
-
-" " Basic tab support (spaces instead of tabs, 4 each level)s
-" setlocal smartindent
-" 
-" " Use spaces instead of tabs
-" setlocal expandtab
-" " Number of spaces when tab is pressed
-" setlocal tabstop=4
-" " Number of spaces when auto indenting
-" setlocal shiftwidth=4
-" " Number of spaces when tab is pressed and its editing
-" setlocal softtabstop=4
-" " Allow backspace to work in insert mode
-" set backspace=indent,eol,start
-"
-" filetype plugin on
-" filetype indent on
-" Autocomment (having filetype plugin indent on)
-" set formatoptions+=r Ideally, the line above will do exactly this
-
+" Set line numbers
+set relativenumber
