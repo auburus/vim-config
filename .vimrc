@@ -19,6 +19,8 @@ call vundle#end()
 
 "" end of Vundle Configuration
 
+set visualbell
+
 " CtrlP configuration
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 """ Setup some default ignores
